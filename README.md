@@ -1,21 +1,14 @@
 ![](/readme-media/graphic.png)
 
-# 🍲 Foodium (Kotlin Multiplatform Mobile)
+# 🍲 FoodStore (Kotlin Multiplatform Mobile)
 
-Foodium is a simple and sample _mobile application_ built to demonstrate the use of
-_**Kotlin Multiplatform Mobile**_ for developing _Android and iOS_ applications
-using **Jetpack Compose** 🚀.
+FoodSore is a lightweight demo app crafted to showcase how to build cross-platform mobile applications using Kotlin Multiplatform Mobile (KMM) with a shared Jetpack Compose UI for both Android and iOS 🚀.
 
-| Platforms | ![](https://img.shields.io/badge/Android-black.svg?style=for-the-badge&logo=android) ![](https://img.shields.io/badge/iOS-black.svg?style=for-the-badge&logo=apple)  |
-|-----------|---|
-| Status    | [![Build](https://github.com/PatilShreyas/Foodium-KMM/actions/workflows/build.yml/badge.svg)](https://github.com/PatilShreyas/Foodium-KMM/actions/workflows/build.yml)  |
 
 
 ## About 
 
-It simply loads Posts data from API and stores it in persistence storage (i.e. SQLite Database). 
-Posts will be always loaded from local database. Remote data (from API) and Local data is always 
-synchronized.
+This application retrieves a list of posts from a remote API, syncs the data with local storage using SQLite, and always displays data from the local source. The app ensures data is available even when offline.
 
 **Features:**
 
@@ -52,18 +45,7 @@ https://user-images.githubusercontent.com/19620536/235439532-457f0ccf-d18f-467d-
 - [Ktor Client](https://github.com/ktorio/ktor): Performing HTTP requests, Creating image loading utility for iOS module.
 - [SQLDelight](https://github.com/cashapp/sqldelight): For persisting posts data in the local database
 - [Coil](https://github.com/coil-kt/coil): Image loading for Android
-- [Mutekt](https://github.com/PatilShreyas/mutekt): For UI state management
 
-## Setting up project 👨🏻‍💻
-
-- Refer to the ***"Setting up environment"*** section of [this repository](https://github.com/JetBrains/compose-multiplatform-ios-android-template/main/README.md) 
-for knowing the setup guidelines
-- After validating requirements as per the above guide, clone this repository.
-- Open this project in Android Studio Electric Eel or newer version.
-- Build project 🔨 and see if everything is working fine.
-- Run App
-  - Select "androidApp" as run configuration and you'll be able to run the Android app.
-  - Select "iosApp" as run configuration and you'll be able to run the iOS app _(XCode can also be used to run the app)_.
   
 ## Project structure 
 
@@ -92,14 +74,7 @@ See [Contributing Guidelines](CONTRIBUTING.md).
 Have any questions, doubts or want to present your opinions, views? You're always welcome.
 You can [start discussions](https://github.com/PatilShreyas/Foodium-KMM/discussions).
 
-## Acknowledgements 
 
-- [JetBrains/compose-multiplatform-ios-android-template](https://github.com/JetBrains/compose-multiplatform-ios-android-template#readme):
-  For Starter template
-- [google/accompanist](https://github.com/google/accompanist): For placeholder (shimmer animation)
-  APIs
-
-## License
 
 ```
 Copyright 2023 Shreyas Patil
